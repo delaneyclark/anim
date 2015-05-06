@@ -1,0 +1,126 @@
+body {
+	background-color: black;
+	background-image: url("upeerstairs.gif");
+	background-size: 200px 200px;
+
+}
+
+
+
+img {
+	width: 500px;
+}
+
+
+
+#ball {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	display: inline;
+	float: left;
+	opacity: 1;
+   transition: opacity .4s ease-in-out;
+   -moz-transition: opacity .4s ease-in-out;
+   -webkit-transition: opacity .4s ease-in-out;
+}
+
+#ball:hover{
+	 
+	opacity: 0.2;
+
+}
+
+#door {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	display: inline;
+	float: right;
+	opacity: 1;
+   transition: opacity .4s ease-in-out;
+   -moz-transition: opacity .4s ease-in-out;
+   -webkit-transition: opacity .4s ease-in-out;
+
+}
+#door:hover {
+	
+	opacity: 0.2;
+}
+#window {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	display: inline;
+	float: right;
+	opacity: 1;
+   transition: opacity .4s ease-in-out;
+   -moz-transition: opacity .4s ease-in-out;
+   -webkit-transition: opacity .4s ease-in-out;
+}
+#window:hover {
+	
+	opacity: 0.2;
+}
+.clicks {
+	position: fixed;
+		top: 0;
+		left: 0;
+
+}
+
+table {
+	margin: 0 auto;
+}
+
+#doorway {
+	display: none;
+}
+
+#doorway.hide {
+	display: none;
+}
+
+#doorway.show {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+
+	
+}
+
+#bball {
+	display: none;
+}
+
+#bball.hide {
+	display: none;
+}
+
+#bball.show {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+
+}
+
+#win {
+	display: none;
+}
+#win.hide {
+	display: none;
+}
+
+#win.show {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+
+
+}
